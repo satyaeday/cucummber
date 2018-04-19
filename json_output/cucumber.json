@@ -1,0 +1,242 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1269677915,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.testSetUp(Scenario)"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 614044676,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10421700717,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14155325,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157446723,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user enters \"satya_eday\" and \"Chanti99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "satya_eday",
+                  "offset": 13
+                },
+                {
+                  "val": "Chanti99",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7249845597,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.User_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5445279,
+              "status": "passed"
+            },
+            "output": [
+              "FINISHED SCENARIO"
+            ],
+            "line": 54,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@User"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 856714161,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.testSetUp(Scenario)"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 588342856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11574425681,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8454049,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145809824,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user enters \"satya_eday\" and \"Chanti99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "satya_eday",
+                  "offset": 13
+                },
+                {
+                  "val": "Chanti99",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5753934676,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.User_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5175823,
+              "status": "passed"
+            },
+            "output": [
+              "FINISHED SCENARIO"
+            ],
+            "line": 54,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@User"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/satya/workspace/bdd/src/main/java/Features/login.feature"
+  }
+]
